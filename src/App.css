@@ -1,0 +1,31 @@
+.nav-link {
+  position: relative;
+  color: #1f2937; /* Text color */
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #e9651e;
+  bottom: 0px;
+  left: 6px;
+  transition: width 0.4s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 90%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
