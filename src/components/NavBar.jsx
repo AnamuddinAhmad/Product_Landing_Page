@@ -16,7 +16,7 @@ const NavBar = () => {
           <div className="flex items-center gap-4">
             {/* Logo */}
             <span>
-              <img src={logo} alt="Logo" className="w-10 h-10" />
+            <h1 className="text-3xl font-bold text-[#E95E19]">WinsomMind</h1>
             </span>
 
             {/* Desktop Menu */}

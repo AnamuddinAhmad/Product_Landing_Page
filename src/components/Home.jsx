@@ -3,9 +3,9 @@ import sideImage from '../assets/mancomputer.png';
 
 const Home = () => {
   return (
-    <div className="w-full min-h-screen flex bg-[#F3F4F6] flex-col md:flex-row mt-0 md:mt-[60px]">
+    <div className="w-full min-h-screen flex bg-[#F3F4F6] flex-col md:flex-row mt-0 md:mt-[40px]">
       {/* Left Section */}
-      <div className="flex items-center justify-center w-full px-8 py-8 md:w-1/2 md:px-28">
+      <div className="flex items-center justify-center w-full px-8 py-8 md:w-1/2 md:px-12">
         <div>
           <h1 className="text-3xl font-bold leading-none md:text-6xl text-zinc-700 md:leading-normal">
             We create <span className="text-[#E95E19]">Solutions</span> for

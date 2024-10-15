@@ -21,17 +21,17 @@ const Services = () => {
       </div>
       <div className='flex flex-wrap items-center justify-center w-full gap-6 mt-8 min-h-fit'>
         <Card
-          title="Design & Development"
+          title="Image Detection System"
           des="We offer a wide range of services, including Web Design, App Development, Graphic Design, UX/UI Design, and Software Development. Our expertise empowers businesses to thrive in the digital world."
           img={dev}
         />
         <Card
-          title="Digital Marketing"
+          title="Barber Booking System"
           des="Our comprehensive digital marketing services encompass SEO, social media, PPC, content marketing, and analytics, driving online visibility, engagement, and measurable growth for businesses across diverse industries."
           img={digtal}
         />
         <Card
-          title="Artificial Intelligence"
+          title="Parking image detection"
           des="Our AI development expertise includes ML algorithms, NLP, computer vision, and chatbots, enabling businesses to achieve efficiency and innovation through automation and data-driven insights."
           img={ai}
         />
