@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/icons8-generated-photos-1500.png"; // Importing logo from assets
-import '../App.css'
+import "../App.css";
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +16,7 @@ const NavBar = () => {
           <div className="flex items-center gap-4">
             {/* Logo */}
             <span>
-            <h1 className="text-3xl font-bold text-[#E95E19]">WinsomMind</h1>
+              <h1 className="text-3xl font-bold text-[#E95E19]">WinsomMind</h1>
             </span>
 
             {/* Desktop Menu */}
@@ -27,7 +27,10 @@ const NavBar = () => {
               <a className="px-2 nav-link hover:text-[#E9651E]" href="#about">
                 About
               </a>
-              <a className="px-2 nav-link hover:text-[#E9651E]" href="#services">
+              <a
+                className="px-2 nav-link hover:text-[#E9651E]"
+                href="#services"
+              >
                 Services
               </a>
               <a className="px-2 nav-link hover:text-[#E9651E]" href="#contact">
@@ -38,7 +41,13 @@ const NavBar = () => {
 
           {/* Contact Button */}
           <div className="hidden md:block">
-            <button className="px-4 py-2 rounded-full border-[#E9651E] border-[1.5px] text-zinc-700 hover:bg-[#E9651E] duration-500 hover:text-white ">
+            <button
+              className="px-4 py-2 rounded-full border-[#E9651E] border-[1.5px] text-zinc-700 hover:bg-[#E9651E] duration-500 hover:text-white"
+              onClick={() =>
+                (window.location.href =
+                  "mailto:contact@winsomeminds.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services!")
+              }
+            >
               Contact Us
             </button>
           </div>
@@ -87,16 +96,28 @@ const NavBar = () => {
         {isOpen && (
           <div className="z-10 w-full bg-white shadow-lg md:hidden">
             <div className="flex flex-col items-center justify-center gap-4 p-4">
-              <a className="block py-2 hover:text-[#E9651E] duration-500" href="#home">
+              <a
+                className="block py-2 hover:text-[#E9651E] duration-500"
+                href="#home"
+              >
                 Home
               </a>
-              <a className="block py-2 hover:text-[#E9651E] duration-500" href="#about">
+              <a
+                className="block py-2 hover:text-[#E9651E] duration-500"
+                href="#about"
+              >
                 About
               </a>
-              <a className="block py-2 hover:text-[#E9651E] duration-500" href="#services">
+              <a
+                className="block py-2 hover:text-[#E9651E] duration-500"
+                href="#services"
+              >
                 Services
               </a>
-              <a className="block py-2 hover:text-[#E9651E] duration-500" href="#contact">
+              <a
+                className="block py-2 hover:text-[#E9651E] duration-500"
+                href="#contact"
+              >
                 Project
               </a>
               <button className="w-full px-4 py-2 mt-2 text-black border-[1px] border-[#E9651E] rounded-md hover:bg-[#E9651E] duration-500 hover:text-white">

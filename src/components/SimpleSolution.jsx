@@ -17,25 +17,47 @@ const SimpleSolution = () => {
             Simple <span className="text-[#E95E19]">Solutions.</span>
           </h1>
           <p className="mt-4 text-base md:text-lg text-zinc-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi alias,
-            aperiam fugit repellendus voluptatibus dolor sit, eveniet adipisci earum
-            tenetur deserunt distinctio ab similique.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            alias, aperiam fugit repellendus voluptatibus dolor sit, eveniet
+            adipisci earum tenetur deserunt distinctio ab similique.
           </p>
         </div>
 
         {/* Bullet Points Section */}
         <div className="mt-8 space-y-6">
-          <BulletPoints num="1" />
-          <BulletPoints num="2" />
-          <BulletPoints num="3" />
+          <BulletPoints
+            title={"Ideate"}
+            num="1"
+            des={
+              "Our team creates engaging and shareable content that resonates with your audience, drives organic traffic"
+            }
+          />
+          <BulletPoints
+            title={"Research"}
+            num="2"
+            des={
+              "Our team conducts in-depth market research to uncover insights and trends, ensuring your strategy is data-driven and tailored to your target audience’s needs"
+            }
+          />
+          <BulletPoints
+            title={"Create"}
+            num="3"
+            des={
+              "We craft compelling and visually stunning content that tells your brand’s story, captivates your audience, and motivates them to take action"
+            }
+          />
         </div>
 
         {/* Buttons Section */}
         <div className="flex flex-col justify-center gap-4 mt-8 mb-4 md:flex-row md:gap-8 md:justify-start">
-          <button className="px-8 py-2 text-lg text-white duration-500 rounded-md bg-zinc-700 hover:bg-zinc-800">
-            Click
-          </button>
-          <button className="px-8 py-2 text-lg text-white duration-500 bg-orange-700 rounded-md hover:bg-orange-800">
+          
+          <button
+            className="px-8 py-2 text-lg text-white duration-500 bg-orange-700 rounded-md hover:bg-orange-800"
+            onClick={() =>
+              (window.location.href =
+                "mailto:contact@winsomeminds.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services!")
+            }
+          >
             Click
           </button>
         </div>
