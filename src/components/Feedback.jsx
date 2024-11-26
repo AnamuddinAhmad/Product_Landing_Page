@@ -29,10 +29,7 @@ export const Feedback = () => {
       
       {/* Description */}
       <p className="w-full mt-2 text-sm text-center md:text-base lg:text-lg md:w-3/4 lg:w-1/2">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
-        error tenetur magnam excepturi unde. Esse quos libero laboriosam,
-        voluptatibus labore saepe eum nobis, vel atque assumenda perspiciatis,
-        eligendi quam amet.
+
       </p>
 
       {/* Feedback Card Section */}
@@ -51,14 +48,17 @@ export const Feedback = () => {
           className="flex items-center justify-start gap-6 px-4 py-2 overflow-x-hidden scrollbar-hidden"
           ref={scrollContainerRef}
         >
-          <FeedbackCard />
-          <FeedbackCard />
-          <FeedbackCard />
-          <FeedbackCard />
-          <FeedbackCard />
-          <FeedbackCard />
-          <FeedbackCard />
-          <FeedbackCard />
+          <FeedbackCard name={"Rajesh Kumar"} feedback="The consultancy services from Our Agency helped us identify key areas for growth in our business. Their digital marketing strategies increased our online presence and customer engagement significantly. Highly recommend their expertise!" />
+          <FeedbackCard name={"Priya Sharma"} feedback="The team at Our Agency transformed our approach to digital marketing. They provided actionable insights and tailored strategies that boosted our online visibility. Their consultancy was a game-changer for our business." />
+          <FeedbackCard name={"Amit Verma"} feedback="We saw a remarkable difference in our online reach and lead generation after implementing Our Agency’s digital marketing strategies. Their consultancy services provided a structured plan for scaling our business." />
+          <FeedbackCard name={"Sanya Gupta"} feedback="The team at Our Agency delivered exceptional results. Their digital marketing strategies helped increase our brand visibility, and the consultancy services gave us the right direction for our business." />
+          <FeedbackCard name={"Ravi Patel"} feedback="The consultancy and digital marketing services from Our Agency were exactly what we needed. Their strategies boosted our sales, and the guidance they provided was insightful and effective." />
+          <FeedbackCard name={"Neha Desai"} feedback="I am really impressed with Our Agency’s expertise. Their digital marketing strategies led to a noticeable increase in traffic to our website, and the consultancy services helped us optimize our business processes." />
+          <FeedbackCard name={"Vikram Singh"} feedback="Thanks to Our Agency, our digital marketing efforts have produced great results. Their consultancy services gave us a clear roadmap for growth, and the marketing strategies were spot on." />
+          <FeedbackCard name={"Aarti Reddy"} feedback="The consultancy services were invaluable in helping us identify key areas to improve in our business. Our Agency's digital marketing strategies led to a significant increase in brand awareness." />
+          <FeedbackCard name={"Karan Joshi"} feedback="I highly recommend Our Agency for digital marketing and consultancy. Their insights helped us build a stronger online presence, and their strategies produced immediate, positive results." />
+          <FeedbackCard name={"Meera Nair"} feedback="Working with Our Agency was a game-changer. Their digital marketing expertise helped us expand our online reach, and their consultancy gave us the guidance we needed to refine our business strategies." />
+          
         </div>
 
         {/* Right Scroll Button */}

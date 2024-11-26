@@ -17,9 +17,7 @@ const SimpleSolution = () => {
             Simple <span className="text-[#E95E19]">Solutions.</span>
           </h1>
           <p className="mt-4 text-base md:text-lg text-zinc-700">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            alias, aperiam fugit repellendus voluptatibus dolor sit, eveniet
-            adipisci earum tenetur deserunt distinctio ab similique.
+          We empowers businesses with innovative digital marketing, web design, and IT consulting. Elevate your brand and drive success with tailored solutions that resonate!
           </p>
         </div>
 
